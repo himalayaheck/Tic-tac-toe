@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.square{
+border: 2px;
+background-origin: padding-box;
+}

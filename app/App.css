@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .square {
+    font-size: 2em;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #999;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .board-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .status {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
